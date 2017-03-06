@@ -1,0 +1,132 @@
+@font-face {
+  font-family: aleo-bold;
+  src: url(../fonts/Aleo-Bold-webfont.woff);
+}
+body{
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #000000;
+}
+
+h1,h2{
+  margin:0;
+}
+.main-container{
+  max-width:960px;
+  margin:auto;
+  height: auto;
+}
+
+.heading-wrapper{
+  margin: auto;
+  width: inherit;
+  background-color: #FFFFFF;
+  height: 110px;
+  text-align: center;
+}
+
+.heading-wrapper img{
+  padding: 55px 0 25px;
+}
+.content-container{
+  background-color: #e6e6e6;
+  position: relative;
+}
+
+.tyre{
+  margin: 0;
+  position: absolute;
+  top: 130px;
+}
+.right{
+  right: 0;
+}
+.order-info-container{
+  width: 650px;
+  margin: auto;
+}
+
+.order-info-container div.heading{
+  height: 155px;
+  text-align: center;
+}
+
+.heading h1{
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: aleo-bold;
+  padding-top: 60px;
+}
+
+.heading h2{
+  font-size: 18px;
+  font-family: aleo-bold;
+  font-style: italic;
+}
+
+.info{
+  padding: 50px 0;
+}
+
+.container{
+  border-bottom: 1px dotted;
+  margin: 0 50px;
+}
+
+.info-row{margin-left: 10px;}
+
+.col{
+  display: inline-block;
+  padding: 5px 0;
+}
+
+.info-col1{
+  width: 30%;
+}
+.info-col2{
+  width: 68%;
+}
+.info-col2 span{
+  font-weight: normal;
+  display: block;
+}
+.head-label{
+  font-weight: bold;
+}
+a{
+  color: #ff1000;
+}
+.address-container{
+  padding-top: 42px;
+}
+.address-container span{
+  display: block;
+}
+.address-wrapper{
+  display: inline-block;
+  width: 34%;
+  vertical-align: top;
+}
+.shipping{
+  margin-left: 85px;
+}
+.address-detail{
+  margin-top: 20px;
+  text-transform: uppercase;
+  overflow-wrap: break-word;
+}
+
+.item-records{
+  border-collapse: collapse;
+  width: 100%;
+}
+.item-records tr:first-child {
+  background-color: #FFFFFF;
+}
+.item-records td, th{
+  text-align: left;
+}
+.footer-container{
+  height: 120px;
+  background-color: #FFFFFF;
+}
