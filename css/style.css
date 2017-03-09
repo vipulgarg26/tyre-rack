@@ -1,7 +1,3 @@
-@font-face {
-  font-family: aleo-bold;
-  src: url(../fonts/Aleo-Bold-webfont.woff);
-}
 body{
   box-sizing: border-box;
   margin: 0;
@@ -54,7 +50,6 @@ h1,h2{
 .heading h1{
   text-transform: uppercase;
   font-size: 48px;
-  font-family: aleo-bold;
   padding-top: 60px;
 }
 
@@ -70,7 +65,7 @@ h1,h2{
 
 .container{
   border-bottom: 1px dotted;
-  margin: 0 50px;
+  margin: 0 15px;
 }
 
 .info-row{margin-left: 10px;}
@@ -115,16 +110,103 @@ a{
   text-transform: uppercase;
   overflow-wrap: break-word;
 }
-
+.item-container{
+  padding-bottom: 40px;
+}
+.item-container > h2{
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.item-container:last-child{
+  padding-bottom: 0;
+}
 .item-records{
   border-collapse: collapse;
   width: 100%;
 }
+.item-records tr {
+  vertical-align: top;
+}
 .item-records tr:first-child {
   background-color: #FFFFFF;
 }
+.item-records td {
+  padding-top: 12px;
+}
+.item-records th:first-child{
+  width:275px;
+}
+.item-records th:last-child{
+  width:70px;
+}
+.item-records th:nth-child(3){
+  width: 65px;
+}
+.item-records th:nth-child(4){
+  width: 90px;
+}
+.item-records th {
+  font-size: 14px;
+}
 .item-records td, th{
   text-align: left;
+}
+.order-bill-info{
+  border-bottom: 2px solid;
+}
+
+.bill-wrapper{
+  width: 100%;
+  display: table;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.bill-wrapper p {
+    display: table-row;
+}
+
+.bill-wrapper span:first-child{
+  font-weight: bold;
+  padding-right: 30px;
+  display: table-cell;
+  padding-bottom: 20px;
+  text-align: right;
+}
+
+.bill-wrapper p span:last-child {
+    display: table-cell;
+    text-align: left;
+    width: 70px;
+}
+.order-total-info{
+    border-bottom-style: none;
+}
+
+.order-total-wrapper{
+  padding:20px 0 110px;
+  vertical-align: top;
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.back-img{
+  float: left;
+}
+.order-total{
+  text-align: right;
+  float: right;
+}
+.order-total span{
+  font-weight: bold;
+}
+.total-head{
+  font-size: 16px;
+}
+.total-value{
+  font-size: 32px;
+  margin-left: 30px;
 }
 .footer-container{
   height: 120px;
